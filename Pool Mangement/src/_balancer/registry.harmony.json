@@ -1,0 +1,86 @@
+{
+  "tokens": {
+    "0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a": {
+      "address": "0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a",
+      "id": "wone",
+      "name": "Wrapped ONE",
+      "symbol": "WONE",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#828384",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xE176EBE47d621b984a73036B9DA5d834411ef734": {
+      "address": "0xE176EBE47d621b984a73036B9DA5d834411ef734",
+      "id": "busd",
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#fab323",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0xEa589E93Ff18b1a1F1e9BaC7EF3E86Ab62addc79": {
+      "address": "0xEa589E93Ff18b1a1F1e9BaC7EF3E86Ab62addc79",
+      "id": "viper",
+      "name": "Viper",
+      "symbol": "VIPER",
+      "decimals": 6,
+      "precision": 3,
+      "color": "#5eb8aa",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f": {
+      "address": "0x3C2B8Be99c50593081EAA2A724F0B8285F5aba8f",
+      "id": "usdt",
+      "name": "Tether USD",
+      "symbol": "1USDT",
+      "decimals": 6,
+      "precision": 3,
+      "color": "#2875ca",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x985458E523dB3d53125813eD68c274899e9DfAb4": {
+      "address": "0x985458E523dB3d53125813eD68c274899e9DfAb4",
+      "id": "usdc",
+      "name": "USD Coin",
+      "symbol": "1USDC",
+      "decimals": 6,
+      "precision": 3,
+      "color": "#422940",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9": {
+      "address": "0x3095c7557bCb296ccc6e363DE01b760bA031F2d9",
+      "id": "wbtc",
+      "name": "Wrapped BTC",
+      "symbol": "1WBTC",
+      "decimals": 8,
+      "precision": 3,
+      "color": "#779bc0",
+      "hasIcon": false,
+      "logoUrl": ""
+    },
+    "0x6983D1E6DEf3690C4d616b13597A09e6193EA013": {
+      "address": "0x6983D1E6DEf3690C4d616b13597A09e6193EA013",
+      "id": "eth",
+      "name": "ETH",
+      "symbol": "1ETH",
+      "decimals": 18,
+      "precision": 3,
+      "color": "#ff5700",
+      "hasIcon": false,
+      "logoUrl": ""
+    }
+  },
+  "untrusted": [
+    "0xbef02f140BFb37a75Ed6510e8D85C9E9e7e0ff1e",
+    "0xe7d8E7742ca6906a14F7e46770Fdfe6B7014e62D",
+    "0xEC4b4fFfb58B6c85D41025b07d93167B8192062E"
+  ]
+}

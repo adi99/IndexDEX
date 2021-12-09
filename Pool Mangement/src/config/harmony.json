@@ -1,0 +1,59 @@
+{
+  "network": "harmony",
+  "chainId": 1666600000,
+  "defaultPrecision": 2,
+  "rpcUrl": "https://a.api.s0.t.hmny.io",
+  "wsUrl": "wss://ws.s0.t.hmny.io",
+  "subgraphUrl": "https://graph.t.hmny.io:8000/subgraphs/name/harmony/SynthIndexes",
+  "explorer": "https://explorer.harmony.one/",
+  "exchangeUrl": "https://viperswap.one/#/swap",
+  "addresses": {
+    "bFactory": "0x7a5E2C83f364c78Ed511F777665f83B971A70E8E",
+    "bActions": "0x7582dE2587b3aa30dE1115c9BF8218c1B975f503",
+    "dsProxyRegistry": "0x2fD7D7088801810b5398457Bda8213383da86E72",
+    "proxy": "0xCCE3B3cDf87A66ff87Ae7A67Cf47581A3BC8DC98",
+    "weth": "0x6983D1E6DEf3690C4d616b13597A09e6193EA013",
+    "multicall": "0x87EcbA849b5329d1584266879B52eEe77DBf628B"
+  },
+  "connectors": {
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    },
+    "walletconnect": {
+      "id": "walletconnect",
+      "name": "WalletConnect",
+      "options": {
+        "rpc": {
+          "42": "https://eth-kovan.alchemyapi.io/v2/C467LJc7Aa761LLxlcxXvhIG9HzDTtKw"
+        }
+      }
+    },
+    "portis": {
+      "id": "portis",
+      "name": "Portis",
+      "options": {
+        "network": "kovan",
+        "dappId": "3f1c3cfc-7dd5-4e8a-aa03-71ff7396d9fe"
+      }
+    },
+    "walletlink": {
+      "id": "walletlink",
+      "name": "Coinbase",
+      "options": {
+        "appName": "Pool management - Balancer",
+        "darkMode": true,
+        "chainId": 42,
+        "ethJsonrpcUrl": "https://eth-kovan.alchemyapi.io/v2/C467LJc7Aa761LLxlcxXvhIG9HzDTtKw"
+      }
+    },
+    "fortmatic": {
+      "id": "fortmatic",
+      "name": "Fortmatic",
+      "options": {
+        "apiKey": "pk_live_9CE8FD92E54684ED"
+      }
+    }
+  }
+}
+
