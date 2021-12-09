@@ -1,5 +1,6 @@
 import homestead from './homestead.json';
 import kovan from './kovan.json';
+import findora from './Findora.json';
 
 interface Connector {
     id: string;
