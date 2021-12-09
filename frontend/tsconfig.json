@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["ES2019", "DOM"],
+        "strict": true,
+        "jsx": "preserve",
+        "baseUrl": "src",
+        "paths": {
+            "@/*": [ "*" ]
+        },
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.vue",
+        "tests/**/*.ts"
+    ]
+}
