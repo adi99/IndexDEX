@@ -1,9 +1,11 @@
 # IndexDEX
-Port Balancer Dex to Findora EVM
+Port Balancer Dex and Pool management App to Findora EVM
 
-# Synthetix Index Management
+# Frontend
+Frontend is the Decntralized Exchange designed to swap between two tokens and Gas fees need to be paid during this Process. This Repo uses multi-token-liquidity-pool to swap between two tokens. 
 
-Index management interface for users to add and remove liquidity to Synthetix Assests.
+#Pool management
+Theis Repo is designed to create Liquidity Pool with more than 2 tokens to upto 8 tokens. This repo will let you manage and create and manage multi token Pool unlike Uniswap which works with only two tokens Liquidity Pool.     
 
 ## Project setup
 ```
