@@ -1,0 +1,60 @@
+{
+  "network": "findora",
+  "chainId": 525,
+  "defaultPrecision": 2,
+  "rpcUrl": "https://kovan.infura.io/v3/d426cb2900374e00ae87af6402ad7abc",
+  "wsUrl": "wss://kovan.infura.io/ws/v3/d426cb2900374e00ae87af6402ad7abc",
+  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/adi99/subgraph-sythindex",
+  "explorer": "https://kovan.etherscan.io",
+  "exchangeUrl": "https://synthetix.exchange",
+  "addresses": {
+    "bFactory": "0x7a5E2C83f364c78Ed511F777665f83B971A70E8E",
+    "bActions": "0x2fD7D7088801810b5398457Bda8213383da86E72",
+    "dsProxyRegistry": "0x1F78651464b564746c254Df8c380368Ce9128958",
+    "proxy": "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
+    "crpFactory": "0x53265f0e014995363AE54DAd7059c018BaDbcD74",
+    "weth": "0xd0A1E359811322d97991E03f863a0C30C2cF029C",
+    "multicall": "0x87EcbA849b5329d1584266879B52eEe77DBf628B"
+  },
+  "connectors": {
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    },
+    "walletconnect": {
+      "id": "walletconnect",
+      "name": "WalletConnect",
+      "options": {
+        "rpc": {
+          "42": "https://eth-kovan.alchemyapi.io/v2/C467LJc7Aa761LLxlcxXvhIG9HzDTtKw"
+        }
+      }
+    },
+    "portis": {
+      "id": "portis",
+      "name": "Portis",
+      "options": {
+        "network": "kovan",
+        "dappId": "3f1c3cfc-7dd5-4e8a-aa03-71ff7396d9fe"
+      }
+    },
+    "walletlink": {
+      "id": "walletlink",
+      "name": "Coinbase",
+      "options": {
+        "appName": "Pool management - Balancer",
+        "darkMode": true,
+        "chainId": 42,
+        "ethJsonrpcUrl": "https://eth-kovan.alchemyapi.io/v2/C467LJc7Aa761LLxlcxXvhIG9HzDTtKw"
+      }
+    },
+    "fortmatic": {
+      "id": "fortmatic",
+      "name": "Fortmatic",
+      "options": {
+        "apiKey": "pk_live_9CE8FD92E54684ED"
+      }
+    }
+  }
+}
+
